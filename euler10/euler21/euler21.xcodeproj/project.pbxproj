@@ -7,22 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0157097F21E16E4B00E5BAD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0157097E21E16E4B00E5BAD8 /* main.cpp */; };
-		0157098721E1817D00E5BAD8 /* collatz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0157098521E1817D00E5BAD8 /* collatz.cpp */; };
+		01DC152221E40AF400C4324E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01DC152121E40AF400C4324E /* main.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		01DC152C21E40AF500C4324E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 01DC152821E40AF400C4324E /* euler21.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 01DC151E21E40AF400C4324E;
-			remoteInfo = euler21;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		0157097921E16E4B00E5BAD8 /* CopyFiles */ = {
+		01DC151C21E40AF400C4324E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -34,15 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0157097B21E16E4B00E5BAD8 /* euler10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = euler10; sourceTree = BUILT_PRODUCTS_DIR; };
-		0157097E21E16E4B00E5BAD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0157098521E1817D00E5BAD8 /* collatz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = collatz.cpp; sourceTree = "<group>"; };
-		0157098621E1817D00E5BAD8 /* collatz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = collatz.hpp; sourceTree = "<group>"; };
-		01DC152821E40AF400C4324E /* euler21.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = euler21.xcodeproj; path = euler21/euler21.xcodeproj; sourceTree = "<group>"; };
+		01DC151E21E40AF400C4324E /* euler21 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = euler21; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DC152121E40AF400C4324E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0157097821E16E4B00E5BAD8 /* Frameworks */ = {
+		01DC151B21E40AF400C4324E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,122 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0157097221E16E4A00E5BAD8 = {
+		01DC151521E40AF400C4324E = {
 			isa = PBXGroup;
 			children = (
-				01DC152821E40AF400C4324E /* euler21.xcodeproj */,
-				0157098521E1817D00E5BAD8 /* collatz.cpp */,
-				0157098621E1817D00E5BAD8 /* collatz.hpp */,
-				0157097D21E16E4B00E5BAD8 /* euler10 */,
-				0157097C21E16E4B00E5BAD8 /* Products */,
+				01DC152021E40AF400C4324E /* euler21 */,
+				01DC151F21E40AF400C4324E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0157097C21E16E4B00E5BAD8 /* Products */ = {
+		01DC151F21E40AF400C4324E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0157097B21E16E4B00E5BAD8 /* euler10 */,
+				01DC151E21E40AF400C4324E /* euler21 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0157097D21E16E4B00E5BAD8 /* euler10 */ = {
+		01DC152021E40AF400C4324E /* euler21 */ = {
 			isa = PBXGroup;
 			children = (
-				0157097E21E16E4B00E5BAD8 /* main.cpp */,
+				01DC152121E40AF400C4324E /* main.cpp */,
 			);
-			path = euler10;
-			sourceTree = "<group>";
-		};
-		01DC152921E40AF400C4324E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				01DC152D21E40AF500C4324E /* euler21 */,
-			);
-			name = Products;
+			path = euler21;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0157097A21E16E4B00E5BAD8 /* euler10 */ = {
+		01DC151D21E40AF400C4324E /* euler21 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0157098221E16E4B00E5BAD8 /* Build configuration list for PBXNativeTarget "euler10" */;
+			buildConfigurationList = 01DC152521E40AF400C4324E /* Build configuration list for PBXNativeTarget "euler21" */;
 			buildPhases = (
-				0157097721E16E4B00E5BAD8 /* Sources */,
-				0157097821E16E4B00E5BAD8 /* Frameworks */,
-				0157097921E16E4B00E5BAD8 /* CopyFiles */,
+				01DC151A21E40AF400C4324E /* Sources */,
+				01DC151B21E40AF400C4324E /* Frameworks */,
+				01DC151C21E40AF400C4324E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = euler10;
-			productName = euler10;
-			productReference = 0157097B21E16E4B00E5BAD8 /* euler10 */;
+			name = euler21;
+			productName = euler21;
+			productReference = 01DC151E21E40AF400C4324E /* euler21 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0157097321E16E4A00E5BAD8 /* Project object */ = {
+		01DC151621E40AF400C4324E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "David Yanni";
 				TargetAttributes = {
-					0157097A21E16E4B00E5BAD8 = {
+					01DC151D21E40AF400C4324E = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 0157097621E16E4A00E5BAD8 /* Build configuration list for PBXProject "euler10" */;
+			buildConfigurationList = 01DC151921E40AF400C4324E /* Build configuration list for PBXProject "euler21" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0157097221E16E4A00E5BAD8;
-			productRefGroup = 0157097C21E16E4B00E5BAD8 /* Products */;
+			mainGroup = 01DC151521E40AF400C4324E;
+			productRefGroup = 01DC151F21E40AF400C4324E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 01DC152921E40AF400C4324E /* Products */;
-					ProjectRef = 01DC152821E40AF400C4324E /* euler21.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				0157097A21E16E4B00E5BAD8 /* euler10 */,
+				01DC151D21E40AF400C4324E /* euler21 */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		01DC152D21E40AF500C4324E /* euler21 */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = euler21;
-			remoteRef = 01DC152C21E40AF500C4324E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0157097721E16E4B00E5BAD8 /* Sources */ = {
+		01DC151A21E40AF400C4324E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0157097F21E16E4B00E5BAD8 /* main.cpp in Sources */,
-				0157098721E1817D00E5BAD8 /* collatz.cpp in Sources */,
+				01DC152221E40AF400C4324E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0157098021E16E4B00E5BAD8 /* Debug */ = {
+		01DC152321E40AF400C4324E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +183,7 @@
 			};
 			name = Debug;
 		};
-		0157098121E16E4B00E5BAD8 /* Release */ = {
+		01DC152421E40AF400C4324E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,7 +234,7 @@
 			};
 			name = Release;
 		};
-		0157098321E16E4B00E5BAD8 /* Debug */ = {
+		01DC152621E40AF400C4324E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -284,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		0157098421E16E4B00E5BAD8 /* Release */ = {
+		01DC152721E40AF400C4324E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -295,25 +253,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0157097621E16E4A00E5BAD8 /* Build configuration list for PBXProject "euler10" */ = {
+		01DC151921E40AF400C4324E /* Build configuration list for PBXProject "euler21" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0157098021E16E4B00E5BAD8 /* Debug */,
-				0157098121E16E4B00E5BAD8 /* Release */,
+				01DC152321E40AF400C4324E /* Debug */,
+				01DC152421E40AF400C4324E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0157098221E16E4B00E5BAD8 /* Build configuration list for PBXNativeTarget "euler10" */ = {
+		01DC152521E40AF400C4324E /* Build configuration list for PBXNativeTarget "euler21" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0157098321E16E4B00E5BAD8 /* Debug */,
-				0157098421E16E4B00E5BAD8 /* Release */,
+				01DC152621E40AF400C4324E /* Debug */,
+				01DC152721E40AF400C4324E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0157097321E16E4A00E5BAD8 /* Project object */;
+	rootObject = 01DC151621E40AF400C4324E /* Project object */;
 }
