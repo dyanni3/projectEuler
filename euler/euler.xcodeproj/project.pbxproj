@@ -10,6 +10,7 @@
 		01DC153B21E56DA900C4324E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01DC153A21E56DA900C4324E /* main.cpp */; };
 		01DC154321E56E4000C4324E /* counting_sundays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01DC154121E56E4000C4324E /* counting_sundays.cpp */; };
 		01DC154621E589BC00C4324E /* non_abundant_sums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01DC154421E589BC00C4324E /* non_abundant_sums.cpp */; };
+		01DC154921E9717A00C4324E /* triangle_contains.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01DC154721E9717A00C4324E /* triangle_contains.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		01DC154221E56E4000C4324E /* counting_sundays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = counting_sundays.hpp; sourceTree = "<group>"; };
 		01DC154421E589BC00C4324E /* non_abundant_sums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = non_abundant_sums.cpp; sourceTree = "<group>"; };
 		01DC154521E589BC00C4324E /* non_abundant_sums.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = non_abundant_sums.hpp; sourceTree = "<group>"; };
+		01DC154721E9717A00C4324E /* triangle_contains.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = triangle_contains.cpp; sourceTree = "<group>"; };
+		01DC154821E9717A00C4324E /* triangle_contains.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = triangle_contains.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,8 @@
 		01DC152E21E56DA900C4324E = {
 			isa = PBXGroup;
 			children = (
+				01DC154721E9717A00C4324E /* triangle_contains.cpp */,
+				01DC154821E9717A00C4324E /* triangle_contains.hpp */,
 				01DC154421E589BC00C4324E /* non_abundant_sums.cpp */,
 				01DC154521E589BC00C4324E /* non_abundant_sums.hpp */,
 				01DC154121E56E4000C4324E /* counting_sundays.cpp */,
@@ -130,6 +135,7 @@
 			files = (
 				01DC154321E56E4000C4324E /* counting_sundays.cpp in Sources */,
 				01DC154621E589BC00C4324E /* non_abundant_sums.cpp in Sources */,
+				01DC154921E9717A00C4324E /* triangle_contains.cpp in Sources */,
 				01DC153B21E56DA900C4324E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
