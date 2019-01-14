@@ -18,9 +18,6 @@ double angle(double a[2], double b[2]){
     double mag_b = pow(b[0],2)+pow(b[1],2);
     mag_b = pow(mag_b,0.5);
     double dot = a[0]*b[0]+a[1]*b[1];
-    if(dot<0){
-        dot=-dot;
-    }
     return(acos(dot/(mag_a*mag_b)));
 }
 
